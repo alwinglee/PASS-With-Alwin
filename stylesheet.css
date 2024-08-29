@@ -1,0 +1,30 @@
+#alwin-photo{
+    border-radius: 50%;
+}
+
+.meet-img{
+    border-radius: 5%;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.sessions-table{
+    border:1px black solid;
+}
+
+
+.question{
+    color:green;
+}
+
+.solution{
+    color:red;
+}
+
+body {
+    overflow-y: scroll;
+}
