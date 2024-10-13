@@ -98,87 +98,19 @@
           <tr>
             <th scope="row">4</th>
             <td>
-                <p class="question"># Create a theme park fee system (using If-Else Statement):</p>
-                <p class="question"># If the customer is 10 years old or younger, they must pay $5.</p>
-                <p class="question"># If the customer is between 10 and 20 years of age, they must pay $10.</p>
-                <p class="question"># If the customer is between 21 and 30 years of age, they must pay $15.</p>
-                <p class="question"># Anyone above 31 years of age must pay $40.</p>
-                <p class="question"># Show to the customer how much they should pay.</p>
-                <pre><code>user_input=input("How old are you?: ")</code></pre>
+                <p class="question"># Please create a program that prints each letter of a user’s input. No Spaces.</p>
+                <p class="question"># Also print out how many letters there are without using the len() function. Use a cumulative variable called counter.</p>
+                <p class="question"># For example user inputted 'Alwin'. It should print each letter on a new line. The following statement should be printed, "There is a total of 5 letters".</p>
+                <pre><code>user_input=input("What is your name: ")</code></pre>
                 <p class="solution"># # # # Solution # # # #</p>
-                <pre><code>user_input=input("How old are you?: ")</code></pre>
-                <pre><code>user_input=int(user_input)</code></pre>
-                <pre><code>if user_input <=10:</code></pre>
-                <pre><code> print("You must pay $5")</code></pre>
-                <pre><code>elif user_input > 10 and user_input<20:</code></pre>
-                <pre><code> print("You must pay $10")<20:</code></pre>
-                <pre><code>elif user_input > 21 and user_input < 30:<20:</code></pre>
-                <pre><code> print("You must pay $15")<20:</code></pre>
-                <pre><code>else:<20:</code></pre>
-                <pre><code> print("You must pay $40")<20:</code></pre>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>
-                <p class="question"># Write me a for loop that prints me the numbers only 3 to 9 (For Loop).</p>
-                <p class="solution"># # # # Solution # # # #</p>
-                <pre><code>for number in range(3,10):</code></pre>
-                <pre><code> print(number)</code></pre>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">6</th>
-            <td>
-                <p class="question"># Write a for loop that starts at 2 and ends at 100, but prints out even numbers (For Loop)</p>
-                <p class="solution"># # # # Solution # # # #</p>
-                <pre><code>for number in range(2,102,2):</code></pre>
-                <pre><code> print(number)</code></pre>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">7</th>
-            <td>
-                <p class="question"># Ask the user for their name and print out how many characters there are (For Loop)</p>
-                <p class="question"># Hint: discover what the Len() function does.</p>
-                <p class="solution"># # # # Solution # # # #</p>
-                <pre><code>user_input=len(input("What is your name: "))</code></pre>
-                <pre><code>characters=0</code></pre>
-                <pre><code>for x in range(user_input):</code></pre>
-                <pre><code> characters+=1</code></pre>
-                <pre><code>print(characters)</code></pre>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">8</th>
-            <td>
-                <p class="question"># Create a program where you prompt the user for their favorite number (While Loop). </p>
-                <p class="question"># Use a while loop, and inside the loop, continuously prompt the user with the question.</p>
-                <p class="question"># The program will continue to ask the user for their favorite number until they enter 'quit'.</p>
-                <p class="solution"># # # # Solution # # # #</p>
-                <pre><code>user_input=""</code></pre>
-                <pre><code>while user_input!="quit":</code></pre>
-                <pre><code>for x in range(user_input):</code></pre>
-                <pre><code> user_input=input("What is your favourite number or type 'quit' to exit: ")</code></pre>
-                <pre><code> print("Your favourite number is:",user_input)</code></pre>
-            </td>
-          </tr>
-          \  <tr>
-            <th scope="row">9</th>
-            <td>
-                <p class="question"># Create a program where you prompt the user for their favorite number (While Loop).</p>
-                <p class="question"># Use a cumulative variable called counter.</p>
-                <p class="question"># # Use a while loop, and inside the loop, continuously prompt the user with the question.</p>
-                <p class="question"># The program will continue to ask the user for their favorite number until the counter hits 5.</p>
-                <p class="solution"># # # # Solution # # # #</p>
-                <pre><code>counter=0</code></pre>
-                <pre><code>while counter<5:</code></pre>
-                <pre><code>for x in range(user_input):</code></pre>
-                <pre><code> user_input=input("What is your favourite number: ")</code></pre>
-                <pre><code> print("Your favourite number is:",user_input)</code></pre>
+                <pre><code>counter= 0</code></pre>
+                <pre><code>user_input=input("What is your name: ")</code></pre>
+                <pre><code>for letter in user_input:</code></pre>
+                <pre><code> print(letter)</code></pre>
                 <pre><code> counter+=1</code></pre>
+                <pre><code>print("There are", counter,"letters in this name.")</code></pre>
             </td>
-          </tr>
+          </tr>          
         </tbody>
       </table>
 
