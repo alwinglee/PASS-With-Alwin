@@ -29,7 +29,7 @@ Libraries:
 - Bootstrap 5.3.3 – Implemented to create a structured layout and ensure responsive design across devices.
 
 Sources:
-- This was a great opportunity for me to continue developing my web development skills. It was a simple project that helped me organize my role as a PASS leader and provide resources to help students excel in the course.
+- The idea behind this project was mainly to help me organize my role as a PASS leader and provide resources to help students excel in the course. Bootstrap played a key role in assisting with the overall layout and responsive design; however, it was also a great opportunity to learn how to host a website online
 
 Author's Information:
 - Created by Alwin Lee
